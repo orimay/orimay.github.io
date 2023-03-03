@@ -1,0 +1,2 @@
+import{a as t}from"./Button.a0a47462.js";import{_ as n}from"./_plugin-vue_export-helper.c27b6911.js";import{o,j as c,x as s}from"./entry.b8ad25c0.js";const _={},r={class:"h-100dvh flex justify-center items-center text-primary text-5xl"};function a(m,p){const e=t;return o(),c("div",r,[s(e,{name:"svg-spinners:pulse"})])}const l=n(_,[["render",a]]);export{l as _};
+//# sourceMappingURL=Loading.b783533d.js.map

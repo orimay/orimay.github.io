@@ -1,0 +1,1 @@
+{"version":3,"file":"index.4b694a66.js","sources":["../../../../pages/index.vue"],"sourcesContent":["<script setup lang=\"ts\">\n  const router = useRouter();\n  router.replace({ path: '/task/list' });\n</script>\n"],"names":["useRouter"],"mappings":"kFAEE,OADAA,IACA,QAAA,CAAA,KAAA,YAAA,CAAA"}
