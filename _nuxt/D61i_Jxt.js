@@ -1,0 +1,1 @@
+function c(s){const o=new WeakMap,t=new WeakMap,r=new Set;return{el2item:o,item2el:t,trackCallbacks:r,bindRef(f){return e=>{if(e===null){const n=t.get(f)?.deref();if(n!==void 0){o.delete(n);for(const a of r)a(n,!1)}t.delete(f);return}if(e instanceof s){t.set(f,new WeakRef(e)),o.set(e,new WeakRef(f));for(const n of r)n(e,!0);return}}}}}export{c as u};
