@@ -1,0 +1,18 @@
+[
+  {
+    "relation": ["delegate_permission/common.query_webapk"],
+    "target": {
+      "namespace": "web",
+      "site": "https://orimay.github.io/manifest.webmanifest",
+      "id": "https://orimay.github.io/"
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.query_webapk"],
+    "target": {
+      "namespace": "web",
+      "site": "https://192.168.0.15:3000/manifest.webmanifest",
+      "id": "https://192.168.0.15:3000/"
+    }
+  }
+]
